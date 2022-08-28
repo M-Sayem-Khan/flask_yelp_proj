@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS yelp_lunch (
+  id serial PRIMARY KEY,
+  name VARCHAR(255) NOT NULL,
+  address VARCHAR(255) NOT NULL,
+  city VARCHAR(255) NOT NULL,
+  category VARCHAR(255) NOT NULL,
+  rating DECIMAL,
+  url VARCHAR(255) NOT NULL
+  );
